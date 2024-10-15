@@ -1,0 +1,9 @@
+nome = input("Informe seu nome: ")
+print("Olá " + nome + ", seja bem-vindo ao Python com o Talento Tech")
+
+possiveis = int(input("Você gostou do meu projeto? Avalie de 0 a 10: "))
+
+if possiveis < 7:
+    print("Irei melhorar nos próximos códigos com toda certeza, obrigado pelo Feedback, " + nome)
+else:
+    print("Obrigado, " + nome + ", Irei melhorar cada vez mais. obrigado pelo Feedback.")
